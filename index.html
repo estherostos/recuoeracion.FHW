@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href= "style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperacion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("article").hide()
+        $("#menuinicio").click(function(){
+            $("article").hide()
+            $("#Inicio").show();
+        });
+        $("#menuofimatica").click(function(){
+            $("article").hide()
+            $("#Ofimatica").show();
+        });
+        $("#menurecuperacion").click(function(){
+            $("article").hide()
+            $("#Recuperacion").show();
+        });
+        $("#menuantivirus").click(function(){
+            $("article").hide()
+            $("#Antivirus").show();
+        });
+        $("#menuportables").click(function(){
+            $("article").hide()
+            $("#Portables").show();
+        });
+    });
+    </script>
+    <style>
+        body{
+            background-image:url(./imag/1920x1280_1028231_[www.ArtFile.ru].jpg);
+        }
+    </style>
+</head>
+<body>
+
+
+    <h1>INSTALACIÓN DE SOFTWARE DE PROPÓSITO GENERAL</h1>
+    <h2> Haga clic en lo que te interesa en el menu de bajo</h2>
+
+<center>
+    <img src="./imag/free-png.ru-75.png" width="130px" height="160px">
+</center>
+    <section>
+        <nav>
+            <ul>
+                <li id="menuinicio"><a href="#Inicio">Inicio</a></li>
+                <li id="menuofimatica"><a href="#Ofimatica">Ofimatica</a></li>
+                <li id="menurecuperacion"><a href="#Recuperacion">Recuperacion de Datos</a></li>
+                <li id="menuantivirus"><a href="#Antivirus">Antivirus</a></li>
+                <li di="menuportables"><a href="#Portables">Portables</a></li>
+
+            </ul>
+        </nav>
+
+        <article id="Inicio">
+            <iframe style="width:100%; border:none" src="./inicio/Inicio.html"></iframe>
+        </article>
+        <article id="Ofimatica">
+            <iframe style="width:100%; border:none" src="./ofimatica/Ofimatica.html"></iframe>
+        </article
+        ><article id="Recuperacion">
+            <iframe style="width:100%; border:none" src="./recuperacion/Recuperacion.html"></iframe>
+        </article>
+        <article id="Antivirus">
+            <iframe style="width:100%; border:none" src="./antivirus/Antivirus.html"></iframe>
+        </article>
+        <article id="Portables">
+            <iframe style="width:100%; border:none" src="./portables/Portables.html"></iframe>
+        </article>
+    </section>
+    
+
+</body>
+</html>
